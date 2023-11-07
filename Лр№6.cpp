@@ -25,11 +25,7 @@ int main()
         cout << setw(10) << "x=" << fixed << setprecision(1) << x << setw(10) << "y=" << y << endl;
         x += h;
     }
-    do {
-        y = pow(x, 8) + 5 * pow(x, 2) - 5;
-        cout << setw(10) << "x=" << fixed << setprecision(1) << x << setw(10) << "y=" << y << endl;
-        x += h;
-    } while (x <= b);
+ 
 }
 
 
